@@ -13,23 +13,11 @@
     "paren": {
       "begin": "\\(",
       "end": "\\)",
-      "beginCaptures": {
-        "0": { "name": "punctuation.paren.open" }
-      },
-      "endCaptures": {
-        "0": { "name": "punctuation.paren.close" }
-      },
       "name": "support.function"
     },
     "comm": {
       "begin": "{",
       "end": "}",
-      "beginCaptures": {
-        "0": { "name": "punctuation.paren.open" }
-      },
-      "endCaptures": {
-        "0": { "name": "punctuation.paren.close" }
-      },
       "name": "comment.block"
     },
     "string": {

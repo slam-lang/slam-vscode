@@ -7,7 +7,7 @@
       "name": "keyword"
     },
     "ident": {
-      "match": "\\b(asm|of|oper|\\-|\\*|\\,|\\/\\%|\\+|\\^|!|!=|==|\\<|\\>|&&|\\|\\||\\(\\)|sys0|sys1|sys2|sys3|sys4|sys5|sys6)\\b",
+      "match": "\\b(asm|of|oper|-|\\*|\\,|\\/\\%|\\+|\\^|!|!=|==|\\<|\\>|&&|\\|\\||\\(\\)|sys0|sys1|sys2|sys3|sys4|sys5|sys6\\[|\\])\\b",
       "name": "entity.name.function"
     },
     "paren": {
@@ -35,7 +35,7 @@
       "name": "constant"
     },
     "num": {
-      "match": "[0-9]+[hbo]?",
+      "match": "\\b[0-9]+[hbo]?\\b",
       "name": "constant.numeric"
     }
   }

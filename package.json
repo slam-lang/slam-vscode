@@ -4,7 +4,7 @@
     "engines": {
         "vscode": ">=0.9.0-pre.1"
     },
-    "publisher": "me",
+    "publisher": "prestosilver",
     "contributes": {
         "languages": [{
             "id": "slamLang",

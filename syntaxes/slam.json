@@ -3,11 +3,11 @@
   "patterns": [{ "include": "#control" }, { "include": "#ident" }, { "include": "#paren" }, { "include": "#comm" }, { "include": "#string" },{ "include": "#sstring" },  { "include": "#char" }, { "include": "#num" }],
   "repository": {
     "control": {
-      "match": "\\b(nop|swap|dump|copy|covr|readc|read|putc|put|disc|argv|argc|envp|const|ret|quit|if|proc|do|end|inc|enum|var|gvar|prop|class|cproc|lnk)\\b",
+      "match": "\\b(sim|lambda|nop|swap|dump|copy|covr|readc|read|putc|put|disc|argv|argc|envp|const|quit|if|proc|do|end|inc|enum|var|gvar|prop|class|cproc|lnk)\\b",
       "name": "keyword"
     },
     "ident": {
-      "match": "\\b(asm|of|oper|-|\\*|\\,|\\/\\%|\\+|\\^|!|!=|==|\\<|\\>|&&|\\|\\||\\(\\)|sys0|sys1|sys2|sys3|sys4|sys5|sys6\\[|\\])\\b",
+      "match": "\\b(brk|macro|ret|asm|of|temp|push|oper|-|\\*|\\,|\\/\\%|\\+|\\^|!|!=|==|\\<|\\>|&&|\\|\\||\\(\\)|sys0|sys1|sys2|sys3|sys4|sys5|sys6\\[|\\])\\b",
       "name": "entity.name.function"
     },
     "paren": {
